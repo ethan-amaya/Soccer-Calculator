@@ -1,0 +1,68 @@
+body {
+    background-color: grey;
+}
+
+table {
+    border: 8px solid #AEAE34;
+    border-radius: 25px;
+    height: 850px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2%;
+    background-color: #454558;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 25px;
+    background-color: #8A8FB8;
+    transition-duration: 0.2s;
+    color: #454558
+}
+
+  button:hover {
+    background-color: #AEAE34;
+  }
+
+td {
+    text-align: center;
+}
+
+.label {
+    font-weight: bold;
+    border: 1px solid #AEAE34;
+    border-radius: 25px;
+    padding: 0.5px;
+    display: inline-block;
+    height: 100%;
+    width: 133%;
+    box-sizing: border-box;
+    margin-top: 5%;
+    position: relative;
+    font-size: 38px;
+    color: #AEAE34
+}
+
+.label span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 17px;
+    margin-bottom: 12px;
+}
+
+.table-container {
+    overflow: hidden;
+}
+
+.soccerButton {
+    width: 380px;
+    margin-left: 39%;
+    margin-top: 1%;
+}
+
+
